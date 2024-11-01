@@ -4,7 +4,7 @@ import Feedback from './components/Feedback'
 import rating_text from './data/rating.json'
 
 
-export function MainFeedback(){
+export function App(){
 
   return (
     
@@ -27,4 +27,4 @@ export function MainFeedback(){
   )
 }
 
-export default MainFeedback
+export default App

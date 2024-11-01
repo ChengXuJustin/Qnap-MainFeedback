@@ -1,1 +1,1 @@
-export { MainFeedback } from "./App"
+export { MainFeedback } from "./main"

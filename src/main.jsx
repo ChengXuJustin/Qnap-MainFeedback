@@ -1,10 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import MainFeedback from './App.jsx'
+import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <MainFeedback />
-  </StrictMode>
-)
+export const MainFeedback = () => {
+  return(
+    createRoot(document.getElementById('root')).render(
+      <StrictMode>
+        <App />
+      </StrictMode>
+    )
+  )
+}
+
+MainFeedback()
+
+export default MainFeedback
