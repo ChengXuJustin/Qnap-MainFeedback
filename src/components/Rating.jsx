@@ -7,9 +7,15 @@ const Rating = ( {listings = []} ) => {
 
     const renderParagraph = item.description.map((question, paraDex) => {
         return (
-          <div key={paraDex}>
+          <div key={paraDex} className='mb-10'>
             <p className='mb-10'>({paraDex+1}) {question}</p>
-            <StarRate />
+            <div>
+              <StarRate />
+              <div className="rateLevel df p-sm">
+                <p className='mg-r-120'>Needs work</p>
+                <p className='mg-r-120'>Very Satisfied</p>
+              </div>
+            </div>
           </div>
         )
     })

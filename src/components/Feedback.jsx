@@ -1,9 +1,10 @@
 import Rating from './Rating'
 import OpenQuestion from './OpenQuestion'
 import Practicality from './Practicality'
+import Citation from './Citation'
 
 
-export function Feedback({ id, data }){
+export function Feedback({ id, data, user }){
 
   const Feedback_id = () => {
     switch (id) {
@@ -13,6 +14,8 @@ export function Feedback({ id, data }){
         return <Rating listings={data}/>
       case 'practicality':
         return <Practicality />
+      case 'citation':
+        return <Citation user={user}/>
     }
   }
 
