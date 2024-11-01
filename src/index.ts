@@ -1,1 +1,1 @@
-export { Feedback } from "./components/Feedback"
+export { MainFeedback } from "./App"

@@ -23,8 +23,8 @@
 
 .frame{
   width: 40%;
-  box-shadow: -5px 0px 15px rgb(84, 84, 84);
-  outline: 1px solid rgb(129, 129, 129);
+  box-shadow: -5px 0px 15px rgba(208, 208, 208, 0.5);
+  outline: 1px solid rgba(196, 196, 196, 0.6);
 }
 
 .method-hover-bg:hover{
